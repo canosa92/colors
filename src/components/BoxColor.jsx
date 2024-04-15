@@ -6,7 +6,7 @@ const BoxColor = ({ color, inputValue }) => {
   let texto = `Esto no es el ${inputValue}`;
 
   useEffect(() => {
-    boxRef.current.style.backgroundColor = 'initial'
+
     if (color === inputValue) {
       boxRef.current.style.backgroundColor = color;
       boxRef.current.textContent = `Esto sí es el ${inputValue}`;
