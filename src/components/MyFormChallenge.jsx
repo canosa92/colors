@@ -1,5 +1,5 @@
 // MyFormChallenge.jsx
-import React, { useState } from 'react';
+import { useState } from 'react';
 import BoxColor from './BoxColor';
 
 const colors = ['red', 'green', 'pink', 'yellow', 'purple', 'white', 'blue', 'aqua', 'olive'];
